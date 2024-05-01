@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Card from "../Card";
+import CallIcon from "@mui/icons-material/Call";
+import MailIcon from "@mui/icons-material/Mail";
+import HomeIcon from "@mui/icons-material/Home";
 
 function Home() {
   return (
@@ -147,56 +149,42 @@ function Home() {
             </div>
           </div>
         </section>
-        {/*----------------Contact Information Section---------------- */}
+        {/*----------------Contact Us Section---------------- */}
+        <section className="contact-us py-3 px-4 my-4">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 mb-4">
+                <h2 className="section-heading text-center mb-5">Contact Us</h2>
+                <div className="row">
+                  <div className="col-lg-4 text-center mb-md-4 mb-4">
+                    <CallIcon sx={{ fontSize: 40 }} />
+                    <p className="contact-info">
+                      <strong>Phone:</strong> +1 (123) 456-7890
+                    </p>
+                  </div>
+                  <div className="col-lg-4 text-center mb-md-4 mb-4">
+                    <Link className="link" to="/">
+                      <MailIcon sx={{ fontSize: 40 }} />
+                    </Link>
+
+                    <p className="contact-info">
+                      <strong>Email:</strong> info@example.com
+                    </p>
+                  </div>
+                  <div className="col-lg-4 text-center mb-md-4 mb-4">
+                    <HomeIcon sx={{ fontSize: 40 }} />
+                    <p className="contact-info">
+                      <strong>Address:</strong> 123 Main Street, City, Country
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
 }
 
 export default Home;
-
-// function Home() {
-//   return (
-//     <div className="container">
-//       <div className="content">
-//         <main>
-//           <div className="head-wrap">
-//             <div className="head">
-//               <h2>Register to Vote</h2>
-//               <p>
-//                 Register here to vote online for the prosperity of Gilgit. The
-//                 process tales only a minute.
-//               </p>
-//               <Link to="/voter-signup" className="button">
-//                 Register
-//               </Link>
-//             </div>
-//           </div>
-//           <Card
-//             className="card"
-//             title="Election Commission Officer"
-//             description="If you have already registered as a voter, then login to voter dashboard and see if there is voting going on."
-//             button_text="Login"
-//             path="/admin-login"
-//           />
-//           <Card
-//             className="card"
-//             title="Registered Voter"
-//             description="If you have already registered as a voter, then login to voter dashboard and see if there is voting going on."
-//             button_text="Login"
-//             path="/voter-login"
-//           />
-//           <Card
-//             className="card"
-//             title="Perspective Voter"
-//             description="If you have already registered as a voter, then login to voter dashboard and see if there is voting going on."
-//             button_text="Register"
-//             path="/voter-signup"
-//           />
-//         </main>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Home;

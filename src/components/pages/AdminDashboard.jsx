@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./AdminDashboard.css"; // Import your CSS file for styling
+import PartiesSelection from "../PartiesSelection";
 
 const AdminDashboard = () => {
   // State variables to manage election status, candidates, parties, etc.
@@ -97,6 +98,7 @@ const AdminDashboard = () => {
       <button onClick={announceWinner} disabled={electionStatus !== "Ended"}>
         Announce Winner
       </button>
+      <PartiesSelection />
     </div>
   );
 };

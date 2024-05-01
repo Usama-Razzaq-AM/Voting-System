@@ -118,18 +118,19 @@ button:hover {
   border: 1px solid #006400;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /*----------------Registration/Logins Section---------------- */
 
 .registration-login-section {
-  /* background-color: #043b14; */
-  /* background: linear-gradient(to bottom, #006400, #008000); */
   background: linear-gradient(
     to bottom right,
     #66cd00,
     #ffffff
   ); /* Gradient background */
 
-  /* background-color: #003366; */
   border: 1px solid #006400;
 }
 
@@ -145,12 +146,9 @@ button:hover {
   transition: box-shadow 0.3s ease-in-out;
   background-color: #96db79;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 .card:hover {
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -211,7 +209,6 @@ button:hover {
 /*----------------How it works Section---------------- */
 
 .how-it-works-section {
-  /* background-color: #043b14; */
   background: linear-gradient(
     to bottom right,
     #66cd00,
