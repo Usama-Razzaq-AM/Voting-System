@@ -1,5 +1,6 @@
 import React from "react";
 import "./voter-log.css";
+import { Link } from "react-router-dom";
 
 function VoterLogin() {
   return (
@@ -15,7 +16,7 @@ function VoterLogin() {
               <input type="submit" />
               <div class="reg">
                 <h3>
-                  Create New Account <a href="sign-up.html">Sign Up</a>
+                  Create New Account <Link to="/voter-signup">Sign Up</Link>
                 </h3>
               </div>
             </form>

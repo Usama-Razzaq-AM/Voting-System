@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 function Footer() {
   return (
@@ -9,18 +10,40 @@ function Footer() {
             <div className="col-xs-12 col-lg-4 col-md-4">
               <h2 className="text-start">GEVS</h2>
               <p className="text-start">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                vel pulvinar lacus. Nulla ac justo eu ipsum placerat fermentum.
-                Curabitur sed arcu ex.
+                We believe that every voice matters, and we're here to empower
+                you to make a difference. With our secure and user-friendly
+                online voting platform, you can participate in elections from
+                anywhere, at any time.
               </p>
             </div>
             <div className="col-xs-12 col-lg-4 col-md-4">
               <h2 className="text-start">Quick Links</h2>
               <ul className="text-start">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Register</li>
-                <li>Login</li>
+                <li>
+                  <Link className="light-shade" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link className="light-shade" to="/about">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className="light-shade" to="/contact">
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className="light-shade" to="/voter-signup">
+                    Register
+                  </Link>
+                </li>
+                <li>
+                  <Link className="light-shade" to="/voter-login">
+                    Login
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="col-xs-12 col-lg-4 col-md-4">

@@ -12,13 +12,16 @@ function Home() {
         {/*----------------Hero Section----------- */}
         <section className="row hero-section text-center py-3 px-4 my-4">
           <div className="col-lg-6 mb-md-5 my-lg-auto">
-            <h1 className="fs-2">General Election Voting System</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel
-              pulvinar lacus. Nulla ac justo eu ipsum placerat fermentum.
-              Curabitur sed arcu ex. Morbi luctus maximus sapien vel suscipit.
-              Cras tincidunt eget nunc nec blandit. Mauris sit amet justo et
-              justo imperdiet malesuada vel at lacus.
+            <h1 className="fs-2 mb-lg-4">General Election Voting System</h1>
+            <p className="text-justify">
+              Welcome to Gilgit Election Voting System, where democracy meets
+              innovation. We believe that every voice matters, and we're here to
+              empower you to make a difference. With our secure and
+              user-friendly online voting platform, you can participate in
+              elections from anywhere, at any time. Join us in shaping the
+              future of democracy and ensuring that your voice is heard.
+              Together, let's build a more inclusive and participatory society.
+              Vote with confidence. Vote with GEVS.
             </p>
           </div>
           <div className="col-lg-6 text-lg-end text-center my-auto">
