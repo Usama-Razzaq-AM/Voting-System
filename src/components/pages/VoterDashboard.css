@@ -5,10 +5,10 @@
   margin: 10vh 5vw;
   padding: 0;
 }
-h2 {
+/* h2 {
   text-align: center;
   margin: 2rem auto;
-}
+} */
 .box-container {
   display: flex;
   justify-content: center;
