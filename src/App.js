@@ -3,6 +3,7 @@ import Home from "./components/pages/Home";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import VoterLogin from "./components/VoterLogin";
 import SignUp from "./components/SignUp";
 import AdminLogin from "./components/AdminLogin";
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/about" exact Component={About} />
+          <Route path="/contact" exact Component={Contact} />
           <Route path="/admin-login" exact Component={AdminLogin} />
           <Route path="/voter-signup" exact Component={SignUp} />
           <Route path="/voter-login" exact Component={VoterLogin} />

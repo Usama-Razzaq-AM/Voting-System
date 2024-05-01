@@ -14,7 +14,7 @@ function About() {
   return (
     <>
       <div className="conatiner-fluid">
-        <h1 className="about">ABOUT US</h1>
+        <h2 className="about">ABOUT US</h2>
 
         {/*----------------Introduction Section---------------- */}
         <section className="introduction row text-center py-3 px-4 my-4">
