@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import Usama from "./images/usama.jpg";
 import about from "./images/about-intro.webp";
-import male from "./images/maleProfile.jpg";
 import subhan from "./images/subhan.jpg";
 import furqan from "./images/furqan.jpg";
 import samama from "./images/samama.jpg";
