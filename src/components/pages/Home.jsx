@@ -12,7 +12,9 @@ function Home() {
         {/*----------------Hero Section----------- */}
         <section className="row hero-section text-center py-3 px-4 my-4">
           <div className="col-lg-6 mb-md-5 my-lg-auto">
-            <h1 className="fs-2 mb-lg-4">General Election Voting System</h1>
+            <h1 className="fs-2 mb-lg-4 text-start">
+              General Election Voting System
+            </h1>
             <p className="text-justify">
               Welcome to Gilgit Election Voting System, where democracy meets
               innovation. We believe that every voice matters, and we're here to
